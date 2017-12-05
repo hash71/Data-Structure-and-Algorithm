@@ -8,6 +8,6 @@ def selection_sort(arr):
         arr[i], arr[min_index] = arr[min_index], arr[i]
 
 
-arr = [3, 5, 2, 7, 6, 8, 12, 40, 21]
-selection_sort(arr)
-print(arr)
+x = [5, 4, 3, 2, 1]
+selection_sort(x)
+print(x)
